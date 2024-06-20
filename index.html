@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <!-- jquery-cdn-link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- font-awesome-cdn-link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- splide-cdn-link -->
+    <script src="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+    "></script>
+    <link href="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+    " rel="stylesheet">
+    <!-- google-font-link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Halant:wght@300;400;500;600;700&family=Inder&family=Inter:wght@100..900&family=Kaisei+Decol&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend+Exa:wght@100..900&family=Major+Mono+Display&family=Mallanna&family=Manjari:wght@100;400;700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poly:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- AOS-cdn -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- external-css-link -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <!-- header-start -->
+        <div class="header-section">
+            <!-- nav-start -->
+            <div class="main-nav">
+                <div class="wrapper">
+                    <div class="nav-content">
+                        <div class="nav-logo">
+                            <img src="./loder.png" alt="" class="nav-img">
+                            <h2 class="nav-logo-heading">FITNESS-</h2>
+                        </div>
+                        <ul class="nav-navigation">
+                            <li class="nav-item"><a href="./index.html" class="nav-link home">Home</a></li>
+                            <li class="nav-item"><a href="./about.html" class="nav-link about">About us</a></li>
+                            <li class="nav-item"><a href="./pricing.html" class="nav-link price">Pricing</a></li>
+                            <li class="nav-item"><a href="./trainers.html" class="nav-link trainer">Trainers</a>
+                            </li>
+                            <li class="nav-item"><a href="./service.html" class="nav-link service">Services</a></li>
+                            <li class="nav-item"><a href="./contact.html" class="nav-link contact">contact us</a>
+                            </li>
+                            <div class="nav-button">
+                                <button class="nav-btn"><a href="" class="nav-link-btn">Sign Up</a></button>
+                            </div>
+                        </ul>
+                        <i class="fa-solid fa-bars toggle-icon"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- nav-end -->
+            <!-- banner-start -->
+            <div class="wrapper">
+                <div class="banner-content">
+                    <h3 class="banner-sub-heading">shape your body</h3>
+                    <h1 class="banner-heading">BE <span class="banner-heading0">STRONG</span> <span
+                            class="banner-heading1">TRANING HARD</span></h1>
+                    <p class="banner-para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <span
+                            class="banner-sub-para">Saepe, ullam. Minus ut obcaecati totam?</span> Optio
+                        explicabo quis repellat tempora soluta.</p>
+                    <div class="banner-btn">
+                        <button class="banner-main-btn"><a href="" class="banner-btn-link">Get Info</a></button>
+                    </div>
+                </div>
+            </div>
+            <!-- banner-end -->
+        </div>
+        <!-- header-end -->
+    </header>
+    <main>
+        <!-- second-section-start -->
+        <div class="second-section">
+            <div class="wrapper">
+                <h2 class="second-main-heading">ABOUT US</h2>
+                <div class="second-content" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                    data-aos-duration="1500">
+                    <div class="second-brand-img">
+                        <img src="./about.png" alt="" class="second-img">
+                    </div>
+                    <div class="second-sub-content">
+                        <h3 class="second-sub-heading">ABOUT OUR GYM</h3>
+                        <h2 class="second-heading">SAFE BODY BUILDING PROPER <span class="second-heading1">SOLUTIONS
+                                THAT SAVES OUR <span class="second-heading2">VALUABLE TIME!</span></span></h2>
+                        <p class="second-para">Brook presents your services with flexible, convenient and cdpose
+                            layouts. <span class="second-para1">You can select your favorite layouts & elements for
+                                cular ts with unlimited</span><span class="second-para2">ustomization possibilities.
+                                Pixel-perfect replication of the designers is intended</span></p>
+                        <div class="second-btn">
+                            <button class="second-main-btn"><a href="" class="second-link-btn">View More</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- second-section-end -->
+        <!-- third-section-start -->
+        <div class="third-section">
+            <div class="wrapper">
+                <h4 class="third-sub-heading">WHY CHOOSE US</h4>
+                <h2 class="third-heading">PUSH YOUR LIMITS FORWARD</h2>
+                <div class="third-img-logo">
+                    <img src="./line-dec.png" alt="" class="third-top-img">
+                </div>
+                <div class="third-content">
+                    <div class="third-sub-content" data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1000">
+                        <div class="third-img-content">
+                            <div class="third-img-brand">
+                                <img src="./feature-1.jpg" alt="" class="third-img">
+                            </div>
+                            <div class="third-content-icon-brand">
+                                <img src="./icon-1.png" alt="" class="third-icon">
+                            </div>
+                            <h3 class="third-content-heading">AMAZING SETTING</h3>
+                            <p class="third-content-para">Pellentesque dictum nisl in nibh dictum <span
+                                    class="third-para1">volutpat nec a quam. Vivamus suscipit nisl</span> <span
+                                    class="third-para2">quis nulla pretium, vitae ornare leo.</span></p>
+                        </div>
+                    </div>
+                    <div class="third-sub-content" data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1250">
+                        <div class="third-img-content">
+                            <div class="third-img-brand">
+                                <img src="./feature-2.jpg" alt="" class="third-img">
+                            </div>
+                            <div class="third-content-icon-brand">
+                                <img src="./icon-2.png" alt="" class="third-icon">
+                            </div>
+                            <h3 class="third-content-heading">
+                                BEST TRAINERS</h3>
+                            <p class="third-content-para">Pellentesque dictum nisl in nibh dictum <span
+                                    class="third-para1">volutpat nec a quam. Vivamus suscipit nisl</span> <span
+                                    class="third-para2">quis nulla pretium, vitae ornare leo.</span></p>
+                        </div>
+                    </div>
+                    <div class="third-sub-content" data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        <div class="third-img-content">
+                            <div class="third-img-brand">
+                                <img src="./feature-3.jpg" alt="" class="third-img">
+                            </div>
+                            <div class="third-content-icon-brand">
+                                <img src="./icon-3.png" alt="" class="third-icon">
+                            </div>
+                            <h3 class="third-content-heading">DIET PLANS</h3>
+                            <p class="third-content-para">Pellentesque dictum nisl in nibh dictum <span
+                                    class="third-para1">volutpat nec a quam. Vivamus suscipit nisl</span> <span
+                                    class="third-para2">quis nulla pretium, vitae ornare leo.</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- third-section-end -->
+        <!-- fourth-section-start -->
+        <div class="fourth-section">
+            <div class="wrapper">
+                <div class="fourth-content" data-aos="zoom-in-up" data-aos-duration="1500">
+                    <h2 class="fourth-heading">DON'T <span class="fourth-heading1">THINK</span> , BEGIN <span
+                            class="fourth-heading1">TODAY!</span></h2>
+                    <p class="fourth-para">Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula,
+                        sit
+                        amet dapibus odio augue eget libero. <span class="fourth-para1">Morbi tempus mauris a nisi
+                            luctus
+                            imperdiet.</span></p>
+                    <div class="fourth-btn">
+                        <button class="fourth-main-btn"><a href="" class="fourth-btn-link">APPOINTMENT</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fourth-section-end -->
+        <!-- fifth-section-start -->
+        <div class="fifth-section">
+            <div class="wrapper">
+                <h4 class="fifth-sub-heading">OUR SERVICES</h4>
+                <h2 class="fifth-heading">WHAT WE CAN OFFER</h2>
+                <div class="fifth-img-logo">
+                    <img src="./line-dec.png" alt="" class="fifth-top-img">
+                </div>
+                <div class="fifth-content">
+                    <div class="sub-content1">
+                        <div class="fifth-sub-conten-item" data-aos="fade-down" data-aos-easing="linear"
+                            data-aos-duration="1500">
+                            <img src="./s-1.jpg" alt="" class="fifth-img">
+                            <h3 class="fifth-img-heading">CROSSFIT TRAINING</h3>
+                        </div>
+                        <div class="fifth-sub-conten-item" data-aos="fade-up" data-aos-easing="linear"
+                            data-aos-duration="1500">
+                            <img src="./s-2.jpg" alt="" class="fifth-img">
+                            <h3 class="fifth-img-heading">FITNESS</h3>
+                        </div>
+                    </div>
+                    <div class="sub-content2">
+                        <div class="fifth-sub-conten-item" data-aos="fade-up" data-aos-offset="300"
+                            data-aos-easing="ease-in-sine" data-aos-duration="2000">
+                            <img src="./s-3.jpg" alt="" class="fifth-img">
+                            <h3 class="fifth-img-heading">DYNAMIC STRENGTH TRAINING</h3>
+                        </div>
+                        <div class="fifth-sub-conten-item" data-aos="fade-down" data-aos-offset="300"
+                            data-aos-easing="ease-in-sine" data-aos-duration="2000">
+                            <img src="./s-4.jpg" alt="" class="fifth-img">
+                            <h3 class="fifth-img-heading">HEALTH</h3>
+                        </div>
+                    </div>
+                    <div class="sub-content3">
+                        <div class="fifth-sub-conten-item" data-aos="fade-down" data-aos-easing="linear"
+                            data-aos-duration="1500">
+                            <img src="./s-5.jpg" alt="" class="fifth-img">
+                            <h3 class="fifth-img-heading">WORKOUT</h3>
+                        </div>
+                        <div class="fifth-sub-conten-item" data-aos="fade-up" data-aos-easing="linear"
+                            data-aos-duration="1500">
+                            <img src="./s-6.jpg" alt="" class="fifth-img">
+                            <h3 class="fifth-img-heading">STRATEGIES</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fifth-section-end -->
+        <!-- sixth-section-start -->
+        <div class="sixth-section">
+            <div class="wrapper">
+                <div class="sixth-content" data-aos="zoom-in-up" data-aos-duration="2000">
+                    <h2 class="sixth-heading">A BIG OFFER FOR
+                        THIS SUMMER</h2>
+                    <h2 class="sixth-max-heading">50% Off</h2>
+                    <p class="sixth-para">There are many variations of passages of lorem Ipsum available,<span
+                            class="sixth-para1">but the majority have suffered alteration.</span> </p>
+                    <div class="sixth-btn">
+                        <button class="sixth-main-btn"><a href="" class="sixth-btn-link">JOIN NOW</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- sixth-section-end -->
+        <!-- seventh-section-start -->
+        <div class="seventh-section">
+            <div class="wrapper">
+                <h4 class="seventh-heading">OUR PLAN</h4>
+                <h2 class="seventh-sub-heading">CHOOSE YOUR PRICING PLAN</h2>
+                <div class="seventh-img-logo">
+                    <img src="./line-dec.png" alt="" class="seventh-top-img">
+                </div>
+                <div class="seventh-content">
+                    <div class="seventh-sub-content" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="1500">
+                        <h4 class="seventh-content-sub-heading">Class drop-in</h4>
+                        <h2 class="seventh-content-heading">$ 39.0</h2>
+                        <h5 class="seventh-content-sub-heading1">SINGLE CLASS</h5>
+                        <h5 class="seventh-content-mini-heading">Free riding</h5>
+                        <h5 class="seventh-content-mini-heading">Unlimited equipments</h5>
+                        <h5 class="seventh-content-mini-heading">Personal trainer</h5>
+                        <h5 class="seventh-content-mini-heading">Weight losing classes</h5>
+                        <h5 class="seventh-content-mini-heading">Month to mouth</h5>
+                        <h5 class="seventh-content-mini-heading">No time restriction</h5>
+                        <div class="seventh-content-btn">
+                            <button class="seventh-btn"><a href="" class="seventh-btn-link">ENROLL NOW</a></button>
+                        </div>
+                    </div>
+                    <div class="seventh-sub-content" data-aos="zoom-in-up" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="1500">
+                        <h4 class="seventh-content-sub-heading">12 Month unlimited</h4>
+                        <h2 class="seventh-content-heading">$ 99.0</h2>
+                        <h5 class="seventh-content-sub-heading1">SINGLE CLASS</h5>
+                        <h5 class="seventh-content-mini-heading">Free riding</h5>
+                        <h5 class="seventh-content-mini-heading">Unlimited equipments</h5>
+                        <h5 class="seventh-content-mini-heading">Personal trainer</h5>
+                        <h5 class="seventh-content-mini-heading">Weight losing classes</h5>
+                        <h5 class="seventh-content-mini-heading">Month to mouth</h5>
+                        <h5 class="seventh-content-mini-heading">No time restriction</h5>
+                        <div class="seventh-content-btn">
+                            <button class="seventh-btn"><a href="" class="seventh-btn-link">ENROLL NOW</a></button>
+                        </div>
+                    </div>
+                    <div class="seventh-sub-content" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="1500">
+                        <h4 class="seventh-content-sub-heading">6 Month unlimited</h4>
+                        <h2 class="seventh-content-heading">$ 59.0</h2>
+                        <h5 class="seventh-content-sub-heading1">SINGLE CLASS</h5>
+                        <h5 class="seventh-content-mini-heading">Free riding</h5>
+                        <h5 class="seventh-content-mini-heading">Unlimited equipments</h5>
+                        <h5 class="seventh-content-mini-heading">Personal trainer</h5>
+                        <h5 class="seventh-content-mini-heading">Weight losing classes</h5>
+                        <h5 class="seventh-content-mini-heading">Month to mouth</h5>
+                        <h5 class="seventh-content-mini-heading">No time restriction</h5>
+                        <div class="seventh-content-btn">
+                            <button class="seventh-btn"><a href="" class="seventh-btn-link">ENROLL NOW</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- seventh-section-end -->
+        <!-- eighth-section-start -->
+        <div class="eighth-section">
+            <div class="wrapper">
+                <h2 class="eighth-heading">EXPERT</h2>
+                <p class="eighth-para">Nunc urna sem, laoreet ut metus id, aliquet consequat <span class="eighthpara1">
+                        Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</span></p>
+                <div class="eighth-img-logo">
+                    <img src="./line-dec.png" alt="" class="eighth-top-img">
+                </div>
+                <div class="eighth-content">
+                    <div class="eighth-card-content" data-aos="fade-down" data-aos-easing="linear"
+                    data-aos-duration="1500">
+                        <img src="./first-trainer.jpg" alt="" class="eighth-card-img">
+                        <h4 class="eighth-card-sub-heading">Strength Trainer</h4>
+                        <h3 class="eighth-card-heading">Bret D. Bowers</h3>
+                        <p class="eighth-card-para">Bitters cliche tattooed 8-bit distillery <span
+                                class="eighth-contentpara1">mustache. Keytar succulents gluten-free </span>
+                            <span class="eighth-contentpara1"> vegan church-key pour-over seitan
+                                flannel.</span>
+                        </p>
+                        <i class="fa-brands fa-facebook-f facebook"></i>
+                        <i class="fa-brands fa-twitter twitter"></i>
+                        <i class="fa-brands fa-instagram instagram"></i>
+                        <i class="fa-brands fa-whatsapp whatsapp"></i>
+                    </div>
+                    <div class="eighth-card-content" data-aos="fade-up" data-aos-easing="linear"
+                    data-aos-duration="1500">
+                        <img src="./second-trainer.jpg" alt="" class="eighth-card-img">
+                        <h4 class="eighth-card-sub-heading">Muscle Trainer</h4>
+                        <h3 class="eighth-card-heading">Hector T. Daigl</h3>
+                        <p class="eighth-card-para">Bitters cliche tattooed 8-bit distillery <span
+                                class="eighth-contentpara1">mustache. Keytar succulents gluten-free </span>
+                            <span class="eighth-contentpara1"> vegan church-key pour-over seitan
+                                flannel.</span>
+                        </p>
+
+                        <i class="fa-brands fa-facebook-f facebook"></i>
+                        <i class="fa-brands fa-twitter twitter"></i>
+                        <i class="fa-brands fa-instagram instagram"></i>
+                        <i class="fa-brands fa-whatsapp whatsapp"></i>
+                    </div>
+                    <div class="eighth-card-content" data-aos="fade-down" data-aos-easing="linear"
+                    data-aos-duration="1500">
+                        <img src="./third-trainer.jpg" alt="" class="eighth-card-img">
+                        <h4 class="eighth-card-sub-heading">Power Trainer</h4>
+                        <h3 class="eighth-card-heading">Paul D. Newman</h3>
+                        <p class="eighth-card-para">Bitters cliche tattooed 8-bit distillery <span
+                                class="eighth-contentpara1">mustache. Keytar succulents gluten-free </span>
+                            <span class="eighth-contentpara1"> vegan church-key pour-over seitan
+                                flannel.</span>
+                        </p>
+                        <i class="fa-brands fa-facebook-f facebook"></i>
+                        <i class="fa-brands fa-twitter twitter"></i>
+                        <i class="fa-brands fa-instagram instagram"></i>
+                        <i class="fa-brands fa-whatsapp whatsapp"></i>
+                    </div>
+                    <div class="eighth-card-content" data-aos="fade-up" data-aos-easing="linear"
+                    data-aos-duration="1500">
+                        <img src="./t3.jpg" alt="" class="eighth-card-img">
+                        <h4 class="eighth-card-sub-heading">Strength Trainer</h4>
+                        <h3 class="eighth-card-heading">Bret M. Stuart</h3>
+                        <p class="eighth-card-para">Bitters cliche tattooed 8-bit distillery <span
+                                class="eighth-contentpara1">mustache. Keytar succulents gluten-free </span>
+                            <span class="eighth-contentpara1"> vegan church-key pour-over seitan
+                                flannel.</span>
+                        </p>
+                        <i class="fa-brands fa-facebook-f facebook"></i>
+                        <i class="fa-brands fa-twitter twitter"></i>
+                        <i class="fa-brands fa-instagram instagram"></i>
+                        <i class="fa-brands fa-whatsapp whatsapp"></i>
+                    </div>
+                    <div class="eighth-card-content" data-aos="fade-down" data-aos-easing="linear"
+                    data-aos-duration="1500">
+                        <img src="./cat2.png" alt="" class="eighth-card-img">
+                        <h4 class="eighth-card-sub-heading">Muscle Trainer</h4>
+                        <h3 class="eighth-card-heading">Harry F. Peter</h3>
+                        <p class="eighth-card-para">Bitters cliche tattooed 8-bit distillery <span
+                                class="eighth-contentpara1">mustache. Keytar succulents gluten-free </span>
+                            <span class="eighth-contentpara1"> vegan church-key pour-over seitan
+                                flannel.</span>
+                        </p>
+
+                        <i class="fa-brands fa-facebook-f facebook"></i>
+                        <i class="fa-brands fa-twitter twitter"></i>
+                        <i class="fa-brands fa-instagram instagram"></i>
+                        <i class="fa-brands fa-whatsapp whatsapp"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- eighth-section-end -->
+        <!-- nineth-section-start -->
+        <div class="nineth-section">
+            <div class="wrapper">
+                <h2 class="nineth-heading">OUR</h2>
+                <div class="nineth-img-logo">
+                    <img src="./line-dec.png" alt="" class="nineth-top-img">
+                </div>
+                <div class="nineth-content">
+                    <div class="nineth-sub-content1">
+                        <img src="./t1.jpg" alt="" class="ninethimg" data-aos="zoom-out" data-aos-duration="1500">
+                        <img src="./t2.jpg" alt="" class="ninethimg" data-aos="zoom-in" data-aos-duration="1500">
+                        <img src="./t3.jpg" alt="" class="ninethimg" data-aos="zoom-out" data-aos-duration="1500">
+                    </div>
+                    <div class="nineth-sub-content2">
+                        <img src="./team1.1.png" alt="" class="ninethimg" data-aos="zoom-out" data-aos-duration="1500">
+                        <img src="./team-1.jpg" alt="" class="ninethimg" data-aos="zoom-in" data-aos-duration="1500">
+                        <img src="./team-3.jpg" alt="" class="ninethimg" data-aos="zoom-out" data-aos-duration="1500">
+                    </div>
+                    <div class="nineth-sub-content3">
+                        <img src="./team-6.jpg" alt="" class="ninethimg" data-aos="zoom-out" data-aos-duration="1500">
+                        <img src="services-1.jpg" alt="" class="ninethimg" data-aos="zoom-in" data-aos-duration="1500">
+                        <img src="services-3.jpg" alt="" class="ninethimg" data-aos="zoom-out" data-aos-duration="1500">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--nineth-section-end -->
+        <!-- tenth-section-start -->
+        <div class="tenth-section">
+            <div class="wrapper">
+                <h2 class="tenth-heading">LATEST </h2>
+                <div class="tenth-img-logo">
+                    <img src="./line-dec.png" alt="" class="tenth-top-img">
+                </div>
+                <h4 class="tenth-sub-heading">A range of services adapted to your needs</h4>
+                <div class="tenth-content">
+                    <div class="tenth-sub-content">
+                        <img src="./latest-1.jpg" alt="" class="tenth-card-img">
+                        <div class="tenth-sub-content-item">
+                            <i class="fa-regular fa-clock clock"></i>
+                            <span class="tenth-clock-heading"> Dec 19, 2013</span>
+                            <i class="fa-regular fa-comments comment"></i>
+                            <span class="tenth-coment-heading">6 comments</span>
+                            <h2 class="tenth-content-heading">The Greatist Team's Favorite <span
+                                    class="tenth-content-heading1">Leggings With Pockets</span></h2>
+                        </div>
+                    </div>
+                    <div class="tenth-sub-content">
+                        <img src="./latest-2.jpg" alt="" class="tenth-card-img">
+                        <div class="tenth-sub-content-item">
+                            <i class="fa-regular fa-clock clock"></i>
+                            <span class="tenth-clock-heading"> Nov 22, 2023</span>
+                            <i class="fa-regular fa-comments comment"></i>
+                            <span class="tenth-coment-heading">6 comments</span>
+                            <h2 class="tenth-content-heading">Everything You Need to Know <span
+                                    class="tenth-content-heading1">Before Your First Indoor <span
+                                        class="tenth-content-heading2">Cycling Class.</span></span></h2>
+                        </div>
+                    </div>
+                    <div class="tenth-sub-content">
+                        <img src="./latest-3.jpg" alt="" class="tenth-card-img">
+                        <div class="tenth-sub-content-item">
+                            <i class="fa-regular fa-clock clock"></i>
+                            <span class="tenth-clock-heading"> Feb 19, 2024</span>
+                            <i class="fa-regular fa-comments comment"></i>
+                            <span class="tenth-coment-heading">6 comments</span>
+                            <h2 class="tenth-content-heading">Run Your Best Race Ever with <span
+                                    class="tenth-content-heading1">These 5 Tips for <span
+                                        class="tenth-content-heading2">the Perfect Taper</span></span></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- tenth-section-end -->
+        <!-- eleventh-section-start -->
+        <div class="eleventh-section">
+            <div class="wrapper">
+                <h2 class="eleventh-heading">CONTACT</h2>
+                <div class="eleventh-img-logo">
+                    <img src="./line-dec.png" alt="" class="eleventh-top-img">
+                </div>
+                <div class="eleventh-content">
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4826174.531894614!2d-6.5926685608354685!3d53.79784275747461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8b639eee9f7af%3A0xbf64f69059608a32!2sUK%20FITNESS%20CLUB!5e0!3m2!1sen!2sin!4v1716647548187!5m2!1sen!2sin"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade" class="map-location"></iframe>
+                    </div>
+                    <div class="eleventh-sub-content">
+                        <div class="eleventh-line"></div>
+                        <h2 class="eleventh-content-heading">Request A Call Back</h2>
+                        <p class="eleventh-content-para">Shape your body and burn fat with strength training. With the
+                            right <span class="eleventh-contentpara1"> equipment such as free weights or resistance
+                                machines.</span></p>
+                        <form action="" method="post">
+                            <div class="form-content">
+                                <input type="text" placeholder="Name" class="name">
+                                <input type="email" placeholder="Email" class="mail">
+                            </div>
+                            <input type="text" placeholder="Subject" class="subject">
+                            <textarea name="" id="" cols="0" rows="0" placeholder="Message" class="message"></textarea>
+                        </form>
+                        <div class="eleventh-btn">
+                            <button class="eleventh-main-btn"><a href="" class="eleventh-btn-link">SUBMIT
+                                    >></a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- eleventh-section-start -->
+    </main>
+    <footer>
+        <!-- footer-section-start -->
+        <div class="footer-section">
+            <div class="wrapper">
+                <h2 class="footer-heading">GET IN </h2>
+                <div class="footer-content">
+                    <div class="footer-sub-content">
+                        <img src="./loder.png" alt="" class="footer-logo">
+                        <span class="footer-logo-heading">FITNESS-</span>
+                        <p class="footer-para">GThe trade war currently ensuing <span class="footer-para1">between te US
+                                anfd several natxions</span> <span class="footer-para1">around thdhe globe, most
+                                fiercely with.</span></p>
+                        <div class="footer-btn">
+                            <button class="footer-main-btn"><a href="" class="footer-btn-link">SIGN UP</a></button>
+                        </div>
+                    </div>
+                    <div class="footer-sub-content">
+                        <h4 class="footer-sub-heading">QUICK LINKS</h4>
+                        <h5 class="footer-sub-link-heading"><a href="./index.html"
+                                class="footer-sub-heading-link">HOME</a></h5>
+                        <h5 class="footer-sub-link-heading"><a href="./about.html" class="footer-sub-heading-link">ABOUT
+                                US</a></h5>
+                        <h5 class="footer-sub-link-heading"><a href="./service.html"
+                                class="footer-sub-heading-link">SERVICES</a></h5>
+                        <h5 class="footer-sub-link-heading"><a href="./pricing.html"
+                                class="footer-sub-heading-link">PRICING</a></h5>
+                        <h5 class="footer-sub-link-heading"><a href="./trainers.html"
+                                class="footer-sub-heading-link">TRAINERS</a></h5>
+                        <h5 class="footer-sub-link-heading"><a href="./contact.html"
+                                class="footer-sub-heading-link">CONTACT US</a></h5>
+                    </div>
+                    <div class="footer-sub-content">
+                        <h4 class="footer-sub-heading">OPEN HOUR</h4>
+                        <h5 class="footer-sub-mini-heading">Monday 11am-7pm</h5>
+                        <h5 class="footer-sub-mini-heading">Tuesday-Friday 11am-8pm</h5>
+                        <h5 class="footer-sub-mini-heading">Saturday 10am-6pm</h5>
+                        <h5 class="footer-sub-mini-heading">Sunday 11am-6pm</h5>
+                    </div>
+                    <div class="footer-sub-content">
+                        <h4 class="footer-sub-heading">CONTACT US</h4>
+                        <div class="footer-icon-heading">
+                            <a href="" class="footer-icon-link">
+                                <i class="fa-solid fa-phone footer-icon"></i>
+                            </a>
+                            <h5 class="footer-sub-mini-heading1 ">Phone:+0910012345</h5>
+                        </div>
+                        <div class="footer-icon-heading">
+                            <a href="" class="footer-icon-link">
+                                <i class="fa-solid fa-envelope footer-icon"></i>
+                            </a>
+                            <h5 class="footer-sub-mini-heading1"> Email:Fitness-Club@2024 gmail.com</h5>
+                        </div>
+                        <div class="footer-icon-heading">
+                            <a href="" class="footer-icon-link">
+                                <i class="fa-regular fa-clock footer-icon"></i>
+                            </a>
+                            <h5 class="footer-sub-mini-heading1">Call Timing:11.00 A.M-07.00 P.M</h5>
+                        </div>
+                        <div class="footer-icon-heading">
+                            <a href="" class="footer-icon-link">
+                                <i class="fa-brands fa-whatsapp footer-icon"></i>
+                            </a>
+                            <h5 class="footer-sub-mini-heading1">+0910012345:Whatsup for chat with us</h5>
+                        </div>
+                        <div class="footer-icon-heading">
+                            <a href="" class="footer-icon-link">
+                                <i class="fa-brands fa-facebook footer-icon"></i>
+                            </a>
+                            <h5 class="footer-sub-mini-heading1">This is facebook page</h5>
+                        </div>
+                    </div>
+                </div>
+                <h4 class="footer-end-heading">Copyright ©2024 All rights reserved |</h4>
+            </div>
+        </div>
+        <!-- footer-section-end -->
+    </footer>
+    <script>
+        $(document).ready(function () {
+            $(".toggle-icon").click(function () {
+                $(".nav-navigation").toggleClass("toggle-menu");
+            })
+        })
+
+        AOS.init();
+        var splide = new Splide('.splide', {
+            perPage: 4,
+            gap: '1rem',
+            breakpoints: {
+                640: {
+                    perPage: 2,
+                    gap: '.7rem',
+                    height: '6rem',
+                },
+                480: {
+                    perPage: 1,
+                    gap: '.7rem',
+                    height: '6rem',
+                },
+            },
+        });
+
+        splide.mount();
+    </script>
+</body>
+
+</html>
